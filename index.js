@@ -15,3 +15,11 @@ function nowServing(katzDeliLine) {
     return (`Currently serving ${katzDeliLine.shift()}.`)
   }
 }
+
+function currentLine(katzDeliLine) {
+  for (i = 0; i < katzDeliLine.length; i++) {
+    line.push(` + [i + 1] +    + katzDeli[i]`)
+  }
+  return (`The line is currently: + line`)
+
+}
